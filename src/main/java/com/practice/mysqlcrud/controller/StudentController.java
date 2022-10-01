@@ -47,6 +47,11 @@ public class StudentController {
 	public ResponseBean getStudentById(@PathVariable("ID") Long id) {
 		 return studentService.getStudentById(id);
 	}
+	
+	@RequestMapping(path ="/message" )
+	public String getMessage() {
+		 return "Hello jenkins";
+	}
 
 	
 }
