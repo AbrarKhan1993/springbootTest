@@ -50,7 +50,7 @@ public class StudentController {
 	
 	@RequestMapping(path ="/message" )
 	public String getMessage() {
-		 return "Hello jenkins";
+		 return "Hello jenkins whats up";
 	}
 
 	
